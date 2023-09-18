@@ -43,3 +43,17 @@ JOIN products p ON orderdetails.productCode = p.productCode
 GROUP BY warehouseCode
 ORDER BY totalOrderVolume DESC;
 
+ 
+Project Overview
+The goal of this project was to analyze the inventory data at Mint Classics to identify the warehouse with the lowest order volume and to make recommendations for reorganizing or reducing inventory.
+Data Analysis
+We used SQL to analyze the data in the Mint Classics database. We performed the following analysis:
+We identified the warehouse with the lowest order volume. This warehouse is WH00D.
+We calculated the order fill rate for each warehouse. The order fill rate is the percentage of orders that were fully filled from the inventory in that warehouse.
+We identified the product name for each product.
+Recommendations
+Based on our analysis, we recommend the following:
+Close WD.
+Move inventory from WD to WA and WB.
+Reduce the inventory levels for products that are not as popular with customers.
+Consider using a third-party logistics provider to store and ship inventory.
